@@ -1,0 +1,22 @@
+.movie {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 24px;
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.movie > .card h3 {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.movie > .card img {
+  max-width: 240px;
+}
+
+.cast {
+  display: flex;
+  flex-wrap: wrap;
+}

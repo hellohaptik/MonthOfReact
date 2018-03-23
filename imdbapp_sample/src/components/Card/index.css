@@ -1,0 +1,35 @@
+.card {
+  border: 1px solid #eee;
+  padding: 16px;
+  background-color: #fff;
+  margin-bottom: 16px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  flex: 1;
+  flex-basis: 240px;
+  margin-right: 16px;
+}
+
+.card-poster {
+  max-width: 140px;
+  margin-right: 24px;
+  margin-bottom: 8px;
+}
+
+.card-text {
+  max-width: 700px;
+  line-height: 1.5;
+  min-width: 200px;
+}
+
+.card-text-title {
+  margin-bottom: 8px;
+}
+
+.card-text-overview {
+  opacity: 0.5;
+  margin-bottom: 24px;
+}
